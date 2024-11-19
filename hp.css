@@ -8,6 +8,7 @@
 
 body{
     background-image: url(./imgHp/Ressources/background.webp);
+   
     
 }
 #titre{
@@ -44,4 +45,67 @@ nav{
    
     }
     
+}
+
+main{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 90vh;
+  
+}
+
+#gauche{
+    background-image: url(./imgHp/Ressources/background.webp);
+    width: 563px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    text-align: center;
+    height: 70%;
+    
+   img{
+    width: 375px;
+    margin-top: 10%;
+   margin-left: auto;
+   margin-right: auto;
+   }
+   #rejoindreBouton
+   {
+     width: 350px;
+     height: 74px;
+     background-color: #433C87;
+     border-radius: 30px;
+   }
+  
+
+   
+} 
+
+#droite{
+ background-image: url(./imgHp/Ressources/losange.webp);
+ background-position: center;
+ display: flex;
+ height: 70%;
+ 
+ width: 728px;
+    div{
+        justify-content: center;
+
+    }
+
+    img{
+       width: 280px;
+       height: 280px;
+    }
+
+}
+
+
+footer
+{
+    margin-top: ;
+    background-color: black;
 }
