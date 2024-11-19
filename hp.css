@@ -7,12 +7,7 @@
     color: white;
 }
 
-body{
-    background-image: 
-    linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3)),
-    url(./imgHp/Ressources/background.webp);
-    
-}
+
 span{
     font-weight: bold;
 }
@@ -47,6 +42,10 @@ nav{
     text-transform: uppercase;
     font-family: "Bigelow Rules", serif;
     font-size: 40px;
+
+    li:hover{
+        text-decoration: underline;
+    }
    
     }
     
@@ -58,11 +57,20 @@ main{
   flex-direction: row;
   justify-content: space-around;
   height: 1032px;
+  background-image: 
+  linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3)),
+  url(./imgHp/Ressources/background.webp);
+  background-attachment: fixed; 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+ 
   
 }
 
 #gauche{
-    background-image: url(./imgHp/Ressources/background.webp);
+    background-image:
+     url(./imgHp/Ressources/background.webp);
     width: 563px;
     height: 70%;
     display: flex;
@@ -84,16 +92,27 @@ main{
    #rejoindreBoutton
    {
      width: 350px;
-     height: 74px;
+     height: 50px;
      background-color: #433C87;
+     transition-property: background-color,width,height ;
+     transition-duration : 0.5s;
+     transition-timing-function : linear;
      border-radius: 30px;
      font-size: 24px;
      margin-left:auto ;
      margin-right: auto;
      font-weight: 800;
-     padding-top: 30px;
+     display: flex;         
+     justify-content: center; 
+     align-items: center;  
 
-   }
+     &:hover
+      {
+        background-color:  #8B81EC;
+        width: 402px;
+        height: 57.5px;
+      }
+    }
   
 
    
@@ -101,8 +120,7 @@ main{
 
 #droite{
  
- padding-left: auto;
- padding-right: auto;
+ 
  display: flex;
 
  height: 70%;
@@ -117,12 +135,13 @@ main{
     }
 
 
-    #choipeau{
+    #choixpeau{
         margin: auto;
+       
         
     }
 
-    #choipeau img{
+    #choixpeau img{
        width: 280px;
        height: 280px;
        
@@ -138,19 +157,32 @@ footer
    text-align: center;
    font-size: 24px;
    margin-bottom: 0px;
+   padding: 20px;
 
   #bordure{ 
     margin: 20px;
     border: 2px solid white;
+    padding: 10px;
    
    }
 
 
-   #reseau{
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-around;
-   font-size: 24px;
-   
+   #reseau
+   {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     font-size: 24px;
    }
+
+   i:hover 
+   {
+     color: #8B81EC;
+   }
+
+      
+    
+   
+   
+
 }
