@@ -64,7 +64,7 @@ main{
 #gauche{
     background-image: url(./imgHp/Ressources/background.webp);
     width: 563px;
-    height: 752px;
+    height: 70%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -73,7 +73,7 @@ main{
     
     padding: 20px;
     text-align: center;
-    height: 70%;
+   
     
    img{
     width: 375px;
@@ -100,27 +100,57 @@ main{
 } 
 
 #droite{
- background-image: url(./imgHp/Ressources/losange.webp);
- background-position: center;
- display: flex;
- height: 752px;
  
+ padding-left: auto;
+ padding-right: auto;
+ display: flex;
+
+ height: 70%;
  width: 728px;
     div{
         justify-content: center;
 
     }
-
-    img{
-       width: 280px;
-       height: 280px;
+    #losange{
+        position: absolute;
+        
     }
 
+
+    #choipeau{
+        margin: auto;
+        
+    }
+
+    #choipeau img{
+       width: 280px;
+       height: 280px;
+       
+    }
 }
+
+
 
 
 footer
 {
-    margin-top: ;
-    background-color: black;
+   background-color: black;
+   text-align: center;
+   font-size: 24px;
+   margin-bottom: 0px;
+
+  #bordure{ 
+    margin: 20px;
+    border: 2px solid white;
+   
+   }
+
+
+   #reseau{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   font-size: 24px;
+   
+   }
 }
