@@ -1,15 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Bigelow+Rules&family=Oxanium:wght@200..800&family=Playwrite+DE+Grund:wght@100..400&display=swap');
 
-
+@import url('https://fonts.googleapis.com/css2?family=Bigelow+Rules&family=Oxanium:wght@200..800&family=Playwrite+DE+Grund:wght@100..400&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
 *{
     margin: 0%;
-    padding:0%
+    padding:0%;
+    color: white;
 }
 
 body{
-    background-image: url(./imgHp/Ressources/background.webp);
-   
+    background-image: 
+    linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3)),
+    url(./imgHp/Ressources/background.webp);
     
+}
+span{
+    font-weight: bold;
 }
 #titre{
     background-color: #242633;
@@ -52,16 +57,20 @@ main{
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-around;
-  height: 90vh;
+  height: 1032px;
   
 }
 
 #gauche{
     background-image: url(./imgHp/Ressources/background.webp);
     width: 563px;
+    height: 752px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-family:"Sofia Sans", sans-serif;
+    font-size: 20px;
+    
     padding: 20px;
     text-align: center;
     height: 70%;
@@ -72,12 +81,18 @@ main{
    margin-left: auto;
    margin-right: auto;
    }
-   #rejoindreBouton
+   #rejoindreBoutton
    {
      width: 350px;
      height: 74px;
      background-color: #433C87;
      border-radius: 30px;
+     font-size: 24px;
+     margin-left:auto ;
+     margin-right: auto;
+     font-weight: 800;
+     padding-top: 30px;
+
    }
   
 
@@ -88,7 +103,7 @@ main{
  background-image: url(./imgHp/Ressources/losange.webp);
  background-position: center;
  display: flex;
- height: 70%;
+ height: 752px;
  
  width: 728px;
     div{
