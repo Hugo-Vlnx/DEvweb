@@ -1,0 +1,35 @@
+@media (max-width: 1340px)
+{
+
+    main 
+    { 
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        height: auto;
+        padding: 20px 10px;
+    }
+    
+     
+    #gauche, #droite 
+    {
+       
+        width:80;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    
+     
+    #gauche img {
+        width: 250px; 
+    }
+    
+    #droite {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+    
