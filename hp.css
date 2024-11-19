@@ -5,5 +5,9 @@
 
 #titre{
     background-color: #242633;
-    ;
+    
+    img{
+        width: auto;
+
+    }
 }
